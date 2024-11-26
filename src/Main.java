@@ -21,12 +21,12 @@ public class Main {
 
         // Ajouter le même employé à un autre département
         affectation.ajouterEmployeDepartement(e1, d2);
-        System.out.println("\nAprès avoir réaffecté Alice :");
+        System.out.println("\nAprès avoir réaffecté Ahmed :");
         affectation.afficherEmployesEtDepartements();
 
         // Supprimer un employé
         affectation.supprimerEmploye(e3);
-        System.out.println("\nAprès avoir supprimé Charlie :");
+        System.out.println("\nAprès avoir supprimé Aziz :");
         affectation.afficherEmployesEtDepartements();
 
         // Afficher employés et départements
